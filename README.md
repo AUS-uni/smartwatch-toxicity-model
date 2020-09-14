@@ -5,15 +5,21 @@
 <img src="https://upload.wikimedia.org/wikipedia/en/c/c8/American_University_of_Sharjah_%28emblem%29.png" style="margin-left:auto;margin-right: auto;display: block" >
 <!-- <img src="http://auscse.com/main/images/banner.png" style="float: right;" > -->
 <hr>
-## Launching the experiment
-1. Fill in the Examples.xlsx to match your test criteria. The main variables to set in this file are -
-  a. Network Profile
-  b. Duration
-  c. test_type -> choose between *text_local* and *text_offload* only
-  d. No need to set sensor here
-  e. pick whether you want periodic/poisson frequency for sending data
-  f. Based on what you picked above set the *period* or *poisson_frequency*
-  g. Set the *model* to 2 which implies the text model.
-2. Run testAutomator.js to start the automated experiment
-3. This will launch this watch project on your Samsung watch automatically
+<h4> Launching the experiment </h4>
+<ol>
+  <li>
+    Fill in the Examples.xlsx to match your test criteria. The main variables to set in this file are -
+    <ul>
+      <li>Network Profile</li>
+      <li>Duration</li>
+      <li>test_type -> choose between <strong>text_local</strong> and <strong>text_offload</strong> only</li>
+      <li>No need to set sensor here</li>
+      <li>pick whether you want periodic/poisson frequency for sending data</li>
+      <li>Based on what you picked above set the *period* or <strong>poisson_frequency</strong></li>
+      <li>Set the <strong>model</strong> to 2 which implies the text model.</li>
+    </ul>
+  </li>
+  <li>Run testAutomator.js to start the automated experiment</li>
+  <li>This will launch this watch project on your Samsung watch automatically</li>
+</ol>
 
