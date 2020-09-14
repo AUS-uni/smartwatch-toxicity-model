@@ -19,6 +19,7 @@
       <li>Set the <strong>model</strong> to 2 which implies the text model.</li>
     </ul>
   </li>
+  <li>Run and setup the other requirements from the main project README which is in Smartwatch-Edge-Mining step 8.
   <li>Run testAutomator.js to start the automated experiment</li>
   <li>This will launch this watch project on your Samsung watch automatically</li>
 </ol>
